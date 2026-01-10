@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="https://raintevy.github.io/">rain’s station</a></li>
+
+      <li class="dropdown">
+        <a href="#">portfolio</a>
+        <ul class="dropdown-menu">
+          <li><a href="https://raintevy.github.io/portfolio-summary/">summary</a></li>
+          <li><a href="https://raintevy.github.io/portfolio-projects/">projects</a></li>
+          <li><a href="#">contact me</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#">personal</a>
+        <ul class="dropdown-menu">
+          <li><a href="https://raintevy.github.io/personal-matcha/">matcha</a></li>
+        </ul>
+      </li>
+
+      <li class="toggle">ភាសាខ្មែរ</li>
+      <li class="toggle" id="dark-toggle">dark mode</li>
+    </ul>
+  </nav>
+</header>
+
+<main class="layout">
+  <section class="hero">
+    <h1>Raingsey Tevy</h1>
+    <h2>Junior Electrical and Computer Engineering<br>@ University of Washington, Seattle</h2>
+  </section>
+
+  <section class="content">
+    <!-- minimal change: wrap text + image so header stays above paragraph -->
+    <div class="summary-wrap">
+      <div class="summary-text">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          I am a third-year Electrical and Computer Engineering student at the University of Washington focused on embedded systems, digital hardware design, and hardware–software co-design. My work spans FPGA development in SystemVerilog, microcontroller programming with Arduino, PCB design and fabrication, sensor integration, motor control, and system-level debugging of real-time systems.
+          <br><br>
+          My interests center on building reliable, experimentally validated systems that bridge theory and physical implementation. I enjoy prototyping, iterative testing, and debugging across electrical, firmware, and timing constraints, and I value clean system architecture, reproducibility, and clear documentation in collaborative environments. I am particularly interested in research and project work related to embedded intelligence, robotics, digital systems, and scalable hardware architectures, with the goal of developing practical technologies that perform robustly in real-world conditions.
+        </p>
+      </div>
+
+      <img class="summary-photo" src="./images/placeholder-profile-icon.png" alt="placeholder image">
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
